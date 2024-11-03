@@ -2,10 +2,6 @@
 Adafruit Bluetooth controller program to animate individually addressable LEDs
 Bluetooth LED control program:
 
-Related files:
-code.py
-CircuitPyBluefruit5_3_22.zip
-
 I designed all of the photo booths that our company currently sells.  Initially our products all ran on Windows software, and so the LED controller could plug directly into the USB port of the internal PC to control the animated patterns of the individually addressable LEDs.  As the industry shifted toward iPad controlled photobooths, we designed a booth enclosure specifically for the iPad, but we were no longer able to control the LEDs directly from the computer, so I found a small off-the-shelf bluetooth enabled circuit board that we could mount directly into the frame that would be able to control the individually addressable LED strips with simple Bluetooth commands from the iPad.  
 
 I programmed the LED controls in circuitPY and have included the code.py file.  The program utilizes both prebuilt procedural animations as well as a custom image based option that allows images to be added as BMPs to the BMP folder which will then be played back as a sequence using each vertical line of pixels as individual frames that loop across the horizontal axis of the image file.
